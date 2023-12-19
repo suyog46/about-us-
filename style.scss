@@ -1,0 +1,64 @@
+@import 'var';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.ps {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.firstview {
+    color: white;
+    background: url('/img/home3.jpg');
+    background-size: cover;
+    height: 80vh;
+    border: $b;
+
+  
+}
+
+header {
+    height: 60px;
+    padding: 10px;
+
+    img {
+        width: 50px;
+        height: 30px;
+    }
+
+}
+
+nav {
+    border: $b;
+
+    ul {
+        list-style: none;
+        height: 100%;
+
+        li {
+            a {
+                padding: 5px;
+                color: white;
+                text-decoration: none;
+                border: $b;
+
+            }
+        }
+    }
+}
+.img1{
+    height:200px;
+    
+width:165px;
+  background:linear-gradient(rgba(22, 4, 4, 0.363)),url('/img/about-1.jpg') ;
+  background-size: cover;
+}
